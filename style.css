@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: 0.2 linear;
+    
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    background-color:rgb(254, 254, 254) ;
+    background-size: cover;
+    background-repeat: no repeat;
+    padding-top: 20rem;
+}
+
+.footer .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+    padding: 2.5rem 0;
+}
+
+.footer .container .footer-box {
+    padding: 1rem;
+}
+
+.footer .container .footer-box h1{
+    color: var(--black);
+    font-size: 1.8rem;
+    letter-spacing: 0.1 rem;
+}
+
+.footer .container .footer-box h2{
+    color: var(--black);
+    font: 0.5rem;
+    letter-spacing: 0.5rem;
+}
+
+.footer .container .footer-box p{
+    color: var(--black);
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    font-weight: 400;
+    padding: 1.2rem;
+}
